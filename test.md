@@ -1,4 +1,4 @@
-*this is written in italics*
+*this is written in italics*  
 **Bold**
 # Heading 1
 ## Heading 2

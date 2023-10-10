@@ -39,7 +39,19 @@
 
 7. cat (no argument)
 ![Image](cse15l_lab1_ss3-1.png) 
-- Whent he command was run the working directory was /home
+- When the command was run the working directory was /home
 - Running cat with no argument provides no terminal output nor does the terminal provide a prompt after the fact. There is simply a cursor which allows the user to type freely into the terminal.
 - This output is not an error
+
+8. cat (path to a directory as an argument)
+![Image](cse15l_lab1_ss3-2.png)
+- When the command was run the working directory was /home
+- Running cat with a directory path as an agument prints a message to the terminal telling the user that the path is in fact a directory. This is because cat can only print or concatinate files, not directories.
+- This output is an error because cat cannot execute with a directory path as an argument
+
+9. cat (path to a file as an argument)
+![Image](cse15l_lab1_ss3-3.png)
+- When the command was run the working directory was /home
+- Running cat with a singular file path as an argument prints the contents of that file to the terminal. Should there have been multiple file paths this command would have concatinated the contents of these files.
+- This output is not an error 
 

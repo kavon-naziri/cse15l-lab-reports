@@ -20,3 +20,10 @@ Screenshot 2:
 - In this second screenshot the method handleRequest(URI url) within the Handler class is called
 - The entire url again passes as an argument to the method handleRequest(URI url). The method url.getPath() returns the path "/add-message" making the first if statement in the handlRequest method true. The method url.getQuery returns the query "s=How are you" which is then split into the string array called parameters as follows: ["s", "How are you"]. Because the element at index 0 of parameters is in fact "s", the second if statement returns true and the instance variable numMessages increments by one and the formatted string including the bullet point number, the message (parameters[1]), and a line break is concatanated to the String called message which is then returned.
 - The instance variable numMessages increments from 1 to 2 and the the instance variable messages becomes "1. Hello\n2. How+are+you\n"
+
+### Part 2
+![Image](cse15l_lab2_ss2-1.png)
+![Image](cse15l_lab2_ss2-2.png)
+![Image](cse15l_lab2_ss2-3.png)
+
+### Part 3

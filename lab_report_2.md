@@ -22,8 +22,16 @@ Screenshot 2:
 - The instance variable numMessages increments from 1 to 2 and the the instance variable messages becomes "1. Hello\n2. How+are+you\n"
 
 ### Part 2
+
+Path to private key for my SSH key for loggin into ieng6 on my machine:
 ![Image](cse15l_lab2_ss2-1.png)
+
+Path to public key for my SSH key for logging into ieng6 on ieng6-202:
 ![Image](cse15l_lab2_ss2-2.png)
+
+Logging into ieng6 without being asked for a passowrd:
 ![Image](cse15l_lab2_ss2-3.png)
 
 ### Part 3
+
+Something I learned in the week 3 lab which I did not know before was the use of the scp and mkdir terminal commands. The mkdir command is used to make directories. In the week 3 lab, mkdir was used to make a .ssh directory where my SSH key could be stored. scp, meaning "secure copy" allows for the secure transfer of files or directories between two locations. In the week 3 lab, the scp command was used to securely transfer my public SSH key to the ieng6 machine. 

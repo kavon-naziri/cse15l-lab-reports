@@ -6,7 +6,6 @@
 Code:
 
 ![Image](cse15l_lab2_ss1-3.png)
-![Image](cse15l_lab2_ss1-4.png)
 
 Screenshot 1:
 ![Image](cse15l_lab2_ss1-1.png)

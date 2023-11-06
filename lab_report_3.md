@@ -21,7 +21,7 @@
   }
 ```
 3. Failure Ouput
-![Image](cse15l_lab3_ss1-1.png)
+![Image](cse15l_lab3_ss_1-1.png)
 
 4. Bug before and after:<br>
 Before:

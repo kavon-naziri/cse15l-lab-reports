@@ -104,6 +104,7 @@ The -s option squeezes lines to fit within the terminal
 $ less -u technical
 technical is a directory
 ```
+
 ```
 $ less -u technical/911report/chapter-3.txt
 
@@ -138,9 +139,11 @@ $ less -u technical/911report/chapter-3.txt
             The New York Field Office of the FBI took control of the local investigation and, in^M   
 technical/911report/chapter-3.txt
 ```
+
 the -u option causes backspaces and carriage returns to be treated asprintable characters
 
 4. less -w
+
 ```
 $ less -w technical
 technical is a directory

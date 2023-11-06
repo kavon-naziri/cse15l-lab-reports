@@ -106,7 +106,7 @@ $ less -s technical/911report/chapter-2.txt
 The -s option squeezes lines to fit within the terminal
 
 3. less -u
-4. 
+ 
 ```
 $ less -u technical
 technical is a directory

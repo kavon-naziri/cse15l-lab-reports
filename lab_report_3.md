@@ -46,10 +46,12 @@ static void reverseInPlace(int[] arr) {
 # part 2
 
 1. less -a
+
 ```
 $ less -a technical
 technical is a directory
 ```
+
 ```
 less -a techical/911report/chapter-1.txt
 
@@ -59,13 +61,16 @@ less -a techical/911report/chapter-1.txt
 
     For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey. Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the technical/911report/chapter-1.txt...skipping...
 ```
+
 The -a option allows for skipping through a file
 
 2. less -s
+
 ```
 $ less -s technical
 technical is a directory
 ```
+
 ```
 $ less -s technical/911report/chapter-2.txt
 
@@ -97,9 +102,11 @@ $ less -s technical/911report/chapter-2.txt
                 instance, omitting the article "al" that would be part of their name in their own    
 :
 ```
+
 The -s option squeezes lines to fit within the terminal
 
 3. less -u
+4. 
 ```
 $ less -u technical
 technical is a directory

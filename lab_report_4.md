@@ -16,3 +16,7 @@ Key presses: `git clone git@github.com:kavon-naziri/lab7.git` `cd lab7`
 3. running rests
 
 ![Image](cse15l_lab3_ss3.png)
+
+Key presses: `ctrl`+`r` `javac` `<enter>` `ctrl`+`r` `java -cp` `<enter>`
+
+4. 

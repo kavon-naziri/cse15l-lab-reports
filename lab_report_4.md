@@ -3,8 +3,16 @@
 
 1. ssh step
 
-![Image](cse15l_lab3_ss_1-1.png)
+![Image](cse15l_lab3_ss1.png)
 
 Key presses: `ssh cs15lfa23lz@ieng6.ucsd.edu`
 
 2. git clone step
+
+![Image](cse15l_lab3_ss2.png)
+
+Key presses: `git clone git@github.com:kavon-naziri/lab7.git` `cd lab7`
+
+3. running rests
+
+![Image](cse15l_lab3_ss3.png)

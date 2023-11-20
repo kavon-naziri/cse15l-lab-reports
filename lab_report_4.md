@@ -19,4 +19,8 @@ Key presses: `git clone git@github.com:kavon-naziri/lab7.git` `cd lab7`
 
 Key presses: `ctrl`+`r` `javac` `<enter>` `ctrl`+`r` `java -cp` `<enter>`
 
-4. 
+4. editing file
+
+![Image](cse15l_lab3_ss4.png)
+
+Key presses: `vim ListExamples.java` `43j` `lll` `x` `i` `2` `<esc>` `:wq`

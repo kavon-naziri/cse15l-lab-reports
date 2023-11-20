@@ -46,7 +46,7 @@ The reverseInPlace method works by switching opposite elements in the array. The
 
 # part 2
 
-1. less -a ([Source for less -a](https://man7.org/linux/man-pages/man1/less.1.html))
+1. less -a (Source: https://man7.org/linux/man-pages/man1/less.1.html)
 
 ```
 $ less -a technical
@@ -67,7 +67,7 @@ less -a techical/911report/chapter-1.txt
 
 The -a option allows for skipping through a file
 
-2. less -s ([Source for less -s](https://man7.org/linux/man-pages/man1/less.1.html))
+2. less -s (Source: https://man7.org/linux/man-pages/man1/less.1.html)
 
 ```
 $ less -s technical
@@ -110,7 +110,7 @@ $ less -s technical/911report/chapter-2.txt
 
 The -s option squeezes lines to fit within the terminal
 
-3. less -u ([Source for less -u](https://man7.org/linux/man-pages/man1/less.1.html))
+3. less -u (Source: https://man7.org/linux/man-pages/man1/less.1.html)
  
 ```
 $ less -u technical
@@ -156,16 +156,51 @@ technical/911report/chapter-3.txt
 
 The -u option causes backspaces and carriage returns to be treated as printable characters
 
-4. less -w ([Source for less -w](https://man7.org/linux/man-pages/man1/less.1.html))
+4. less -w (Source: https://man7.org/linux/man-pages/man1/less.1.html)
 
 ```
-$ less -w technical
+$ less -m technical
 technical is a directory
 ```
 
-less -w does not work for directories
+less -m does not work for directories
 
 ```
+less -m technical/911report/chapter-7.txt
 
+            THE ATTACK LOOMS
+            FIRST ARRIVALS IN CALIFORNIA
+            In chapter 5 we described the Southeast Asia travels of Nawaf al Hazmi, Khalid al
+                Mihdhar, and others in January 2000 on the first part of the "planes operation." In
+                that chapter we also described how Mihdhar was spotted in Kuala Lumpur early in
+                January 2000, along with associates who were not identified, and then was lost to
+                sight when the group passed through Bangkok. On January 15, Hazmi and Mihdhar
+                arrived in Los Angeles. They spent about two weeks there before moving on to San
+                    Diego.
+
+            Two Weeks in Los Angeles
+            Why Hazmi and Mihdhar came to California, we do not know for certain. Khalid Sheikh
+                Mohammed (KSM), the organizer of the planes operation, explains that California was
+                a convenient point of entry from Asia and had the added benefit of being far away
+                from the intended target area.
+
+            Hazmi and Mihdhar were ill-prepared for a mission in the United States. Their only
+                qualifications for this plot were their devotion to Usama Bin Ladin, their veteran
+                service, and their ability to get valid U.S. visas. Neither had spent any
+                substantial time in the West, and neither spoke much, if any, English.
+
+            It would therefore be plausible that they or KSM would have tried to identify, in
+                advance, a friendly contact for them in the United States. In detention, KSM denies
+                that al Qaeda had any agents in Southern California. We do not credit this
+                denial.4We believe it is unlikely that Hazmi and Mihdhar-neither of whom, in
+                contrast to the Hamburg group, had any prior exposure to life in the West-would have
+                come to the United States without arranging to receive assistance from one or more
+                individuals informed in advance of their arrival.
+
+            KSM says that though he told others involved in the conspiracy to stay away from
+                mosques and to avoid establishing personal contacts, he made an exception in this
+technical/911report/chapter-7.txt 2%
 ```
+
+The -m options prompts with the percentage through the file as opposed to the standard colon.
 

@@ -42,15 +42,18 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+The reverseInPlace method works by switching opposite elements in the array. The buggy implementation iterates through the entire array and at a given index will put the opposing value in the array at that index but will not replace the value at the opposing index. The debugged implentation itterates through half of the array and stores stores the value at a given index as a temp variable such that it can be placed at the opposing index. 
 
 # part 2
 
-1. less -a
+1. less -a ([Source for less -a](https://man7.org/linux/man-pages/man1/less.1.html))
 
 ```
 $ less -a technical
 technical is a directory
 ```
+
+less -a does not work for directories
 
 ```
 less -a techical/911report/chapter-1.txt
@@ -64,12 +67,14 @@ less -a techical/911report/chapter-1.txt
 
 The -a option allows for skipping through a file
 
-2. less -s
+2. less -s ([Source for less -s](https://man7.org/linux/man-pages/man1/less.1.html))
 
 ```
 $ less -s technical
 technical is a directory
 ```
+
+less -s does not work for directories
 
 ```
 $ less -s technical/911report/chapter-2.txt
@@ -105,12 +110,14 @@ $ less -s technical/911report/chapter-2.txt
 
 The -s option squeezes lines to fit within the terminal
 
-3. less -u
+3. less -u ([Source for less -u](https://man7.org/linux/man-pages/man1/less.1.html))
  
 ```
 $ less -u technical
 technical is a directory
 ```
+
+less -u does not work for directories
 
 ```
 $ less -u technical/911report/chapter-3.txt
@@ -147,12 +154,18 @@ $ less -u technical/911report/chapter-3.txt
 technical/911report/chapter-3.txt
 ```
 
-the -u option causes backspaces and carriage returns to be treated asprintable characters
+The -u option causes backspaces and carriage returns to be treated as printable characters
 
-4. less -w
+4. less -w ([Source for less -w](https://man7.org/linux/man-pages/man1/less.1.html))
 
 ```
 $ less -w technical
 technical is a directory
+```
+
+less -w does not work for directories
+
+```
+
 ```
 

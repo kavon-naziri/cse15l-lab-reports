@@ -20,5 +20,8 @@ a. In the end the file structure is the same as before the bug was fixed with th
 b. The contents of each file before fixing the bug are as follows.
 ![Image](cse15l_lab5_ss4.png)
 ![Image](cse15l_lab5_ss7.png)
-c. 
-
+c. code run to trigger and diagnose the bug
+![Image](cse15l_lab5_ss5.png)
+![Image](cse15l_lab5_ss6.png)
+d. Description of how to fix the bug
+Flipping the inequality sign when .compareTo is used in the merge method fixes the bug and ensures that the final result is a correctly ordered, merged array. 
